@@ -92,7 +92,7 @@ History note: never under git. Commits were rebuilt from the original scripts' m
 
 ## 🤖 Built with AI
 
-- **Original scripts (May 2026):** built in an AI chat workflow. The docstrings still say "Login page selectors based on your screenshot" and "Manual override from your message": screenshots of the portal went in, and working Selenium code came back. About 3,750 lines over three sessions. No session logs survive, so there are no session counts.
+- **Original scripts (May 2026):** built in a ChatGPT workflow. The docstrings still say "Login page selectors based on your screenshot" and "Manual override from your message": screenshots of the portal went in, and working Selenium code came back. About 3,750 lines over three sessions. ChatGPT conversation logs were not kept, so there are no session counts.
 - **Claude Code:** the May–June 2026 portfolio pass (placeholders) and the September 2026 rebuild (dated history, sanitization scan: clean, this README).
 - **Commits:** 7, each with a `Co-Authored-By: Claude` trailer. **Tests:** none (live portal automation). All five scripts pass `python -m py_compile`.
 
