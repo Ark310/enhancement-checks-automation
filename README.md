@@ -10,6 +10,10 @@ Five Selenium + Tkinter tools that audited and then repaired the task structure 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Built with Claude Code](https://img.shields.io/badge/Built%20with-Claude%20Code-D97757?logo=anthropic&logoColor=white)
 
+<!-- showcase:banner:start -->
+> 🧭 Part of **Abdul Raqeeb Khatri's portfolio**: [📂 Hub](https://github.com/Ark310/portfolio) · [🌐 Site](https://ark310.github.io) · [💼 Experience](https://github.com/Ark310/experience)
+<!-- showcase:banner:end -->
+
 ## Overview
 
 Before a release, every enhancement ticket had to carry a standard set of review tasks (developer code review, code review 1 and 2, QA development sign-off, release sign-off), each assigned to the right person for that product and closed. The first audit found tickets with missing tasks, blank assignees and tasks left open. Fixing 147 tickets by hand meant opening each ticket, its Tasks/Time iframe and every task's edit form.
@@ -23,6 +27,20 @@ The job was split into five focused passes. Each is its own GUI script that logs
 | 3 | `phase3_task_assignee_mapper.py` | **A:** learn *project + task description → assignee* from a training list of tickets and save it as an Excel DB (ambiguous choices listed). **B:** fill blank *Assigned To* fields from that DB. |
 | 4 | `phase4_task_creator.py` | Create the missing standard tasks with the right task type, assigned from manual overrides first, then the phase 3 DB. |
 | 5 | `phase5_task_status_fixer.py` | Final sweep: apply a project/task assignment map (with `*` wildcards) and fix any remaining wrong assignee or non-Closed status. |
+
+<!-- showcase:why-impact:start -->
+## 💡 Why I Built It
+
+Before a release every enhancement ticket needed a standard set of review tasks, assigned and closed. An audit found missing tasks, blank assignees and open tasks across 147 tickets, and fixing each by hand meant several forms per ticket.
+
+## 📈 Impact
+
+- Audited and repaired 147 tickets in three working sessions instead of weeks of manual edits.
+- Every editing phase has a dry-run mode and writes an Excel audit, which made a risky bulk edit reviewable.
+- Learned the correct assignee for each task from correctly set-up tickets instead of relying on a hand-kept mapping.
+
+`147 tickets` · `5 phases` · `3 sessions`
+<!-- showcase:why-impact:end -->
 
 ## Features
 
@@ -99,6 +117,14 @@ History note: never under git. Commits were rebuilt from the original scripts' m
 ## License
 
 MIT, see [LICENSE](LICENSE).
+
+<!-- showcase:footer:start -->
+---
+
+<p align="center"><a href="https://github.com/Ark310/portfolio">← Back to the portfolio hub</a> · <a href="https://ark310.github.io">Interactive site</a> · <a href="https://github.com/Ark310/experience">Experience</a></p>
+
+**Related projects:** [Report Downloader](https://github.com/Ark310/report-downloader) · [Incident Report Scraper](https://github.com/Ark310/incident-report-scraper) · [Portal Account De-Activator](https://github.com/Ark310/portal-account-deactivator)
+<!-- showcase:footer:end -->
 
 ## Author
 
